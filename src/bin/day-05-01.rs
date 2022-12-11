@@ -88,8 +88,8 @@ mod test {
         assert_eq!(
             parse_line("move 2 from 2 to 9"),
             Command {
-                source: 2,
-                dest: 9,
+                source: 1,
+                dest: 8,
                 amt: 2
             }
         );
